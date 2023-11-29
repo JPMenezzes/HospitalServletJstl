@@ -1,0 +1,44 @@
+#header {
+    top: 0;
+    left: 0;
+    background-color: lightskyblue;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#header ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+#header ul li a:hover {
+    background-color: dodgerblue;
+}
+
+.mensagem {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: right;
+}
